@@ -15,7 +15,7 @@ let mockApartments = [
     user_id: 1
   },
   {
-    id: 2,
+    id: 3,
     street: "720 Second Avenue",
     unit: "508",
     city: "San Diego",
