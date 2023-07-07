@@ -1,4 +1,4 @@
 .footerStatic {
-  /* position: fixed; */
+  position: static;
   width: 100%;
 }
