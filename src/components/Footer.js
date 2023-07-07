@@ -4,13 +4,14 @@ import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
 import { FooterLayout } from "./FooterLayout.js";
 import { NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Footer = () => {
+
 
   const [variant, setVariant] = React.useState("static");
 
   const variants = ["static", "floating", "sticky"];
-  return (
 
+  return (
     <>
     <div className='footerStatic'>
     <FooterLayout>
@@ -27,7 +28,4 @@ const Header = () => {
     </>
   );
 }
-
 export default Header
-
-    
