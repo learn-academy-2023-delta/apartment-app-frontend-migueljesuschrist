@@ -1,9 +1,34 @@
 import React from 'react'
+import styles from '../styles/Footer.css'
 
-const Footer = () => {
+import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
+import { FooterLayout } from "./FooterLayout.js";
+import { NavLink } from 'react-router-dom';
+
+const Header = () => {
+
+  const [variant, setVariant] = React.useState("static");
+
+  const variants = ["static", "floating", "sticky"];
   return (
-    <div>Footer</div>
-  )
+
+    <>
+    <div className='footerStatic'>
+    <FooterLayout>
+      <Navbar isBordered variant={variant}>
+        <Navbar.Content hideIn="xs">
+          <Navbar.Link href="/">Veteran Home Finder</Navbar.Link>
+          <Navbar.Link href="#">Miguel | Jesus | Chris</Navbar.Link>
+        </Navbar.Content>
+        <Navbar.Content>
+        </Navbar.Content>
+      </Navbar>
+    </FooterLayout>
+    </div>
+    </>
+  );
 }
 
-export default Footer
+export default Header
+
+    

@@ -1,0 +1,17 @@
+.nav-bar {
+  display: flex;
+  border: 1px solid purple;
+  background-color: red;
+}
+.me-auto.navbar-nav {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.headerStatic {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
