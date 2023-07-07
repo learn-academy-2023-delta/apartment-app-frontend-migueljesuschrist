@@ -16,8 +16,8 @@ const Header = () => {
             <Navbar.Link href="/apartmentindex/">Listings</Navbar.Link>
           </Navbar.Content>
           <Navbar.Content>
-            <Navbar.Link color="inherit" href="#">
-              Sign In
+            <Navbar.Link color="inherit" href="/login/">
+              Log In
             </Navbar.Link>
             <Navbar.Item>
               <Button auto flat as={Link} href="#">

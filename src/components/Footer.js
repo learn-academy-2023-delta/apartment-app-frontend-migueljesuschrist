@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from '../styles/Footer.css'
-import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
+import { Navbar } from "@nextui-org/react";
 import { FooterLayout } from "./FooterLayout.js";
-import { NavLink } from 'react-router-dom';
+
 
 const Footer = () => {
 
@@ -28,4 +28,4 @@ const Footer = () => {
     </>
   );
 }
-export default Header
+export default Footer
