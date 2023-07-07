@@ -11,28 +11,24 @@ describe("<Header />", () => {
   )})
 
   it("has header text", () => {
-    screen.logTestingPlaygroundURL()
     expect(screen.getByRole('link', {
       name: /home/i
     })).toBeInTheDocument
   })
 
   it("has header text", () => {
-    screen.logTestingPlaygroundURL()
     expect(screen.getByRole('link', {
       name: /listings/i
     })).toBeInTheDocument
   })
 
   it("has header text", () => {
-    screen.logTestingPlaygroundURL()
     expect(screen.getByRole('link', {
       name: /sign in/i
     })).toBeInTheDocument
   })
 
   it("has header text", () => {
-    screen.logTestingPlaygroundURL()
     expect(screen.getByText(/sign up/i)).toBeInTheDocument
   })
 })

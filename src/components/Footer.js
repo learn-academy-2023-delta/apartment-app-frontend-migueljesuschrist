@@ -1,18 +1,19 @@
 import React from 'react'
 import styles from '../styles/Footer.css'
-import { Navbar } from "@nextui-org/react";
+import { Navbar, Button, Link, Text, Card, Radio } from "@nextui-org/react";
 import { FooterLayout } from "./FooterLayout.js";
-
-
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
+
 
   const [variant, setVariant] = React.useState("static");
 
   const variants = ["static", "floating", "sticky"];
-  
+
   return (
     <>
+    <div className='footerStatic'>
     <FooterLayout>
       <Navbar isBordered variant={variant}>
         <Navbar.Content hideIn="xs">
@@ -22,14 +23,9 @@ const Footer = () => {
         <Navbar.Content>
         </Navbar.Content>
       </Navbar>
-      
     </FooterLayout>
+    </div>
     </>
   );
 }
-
-
-
-export default Footer
-
-    
+export default Header

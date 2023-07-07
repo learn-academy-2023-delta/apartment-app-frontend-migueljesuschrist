@@ -11,14 +11,12 @@ describe("<Footer />", () => {
   )})
 
   it("has footer text", () => {
-    screen.logTestingPlaygroundURL()
     expect(screen.getByRole('link', {
       name: /veteran home finder/i
     })).toBeInTheDocument
   })
 
   it("has footer text", () => {
-    screen.logTestingPlaygroundURL()
     expect(screen.getByRole('link', {
       name: /miguel \| jesus \| chris/i
     })).toBeInTheDocument
